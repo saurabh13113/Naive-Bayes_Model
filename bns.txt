@@ -1,0 +1,18 @@
+1. Explain what the calculations above might or might not tell you about the "fairness" of your Naive Bayesian network.
+
+These calculations show that the model is quite unfair, and it is strongly biased regarding gender in several ways:
+
+i. It shows extreme disparity in the way it processes evidence sets between genders: 99.96% versus 0%
+ii. It also has different high-salary predictions for men, with 66.3%, and for women, 57.3%.
+iii. It predicts high salaries much more often for men than women, 25.4% and 8.1%, respectively.
+This suggests that the model has learned and is perpetuating systemic gender biases likely arisign from the training data, where gender correlates strongly with other variables.
+It fails to prioritize other fair criteria when it comes to salary prediction, such as demographic parity or education and thus cannot be considered a fair model.
+
+ 
+2. Would you be willing to use your model to recommend starting salaries for employees at a firm? Why or why not? 
+
+No, I would not be willing to use this model to provide recommendations on salaries because it clearly shows some gender discrimination in its predictions, 
+and using it would mean a violation of equal pay and anti-discrimination laws. It would also just continue the existing wage gaps through systematic prediction of 
+lower salaries for women; and also the model seems to heavily weighh gender rather than focusing on relevant qualifications. In addition, the use of such a model 
+in salary decisions might give rise to ethical or legal problems. Significant improvements are supposed to be brought to this model: from addressing issues related 
+to gender bias and improvement of criteria that ensure more fairness in recommendations given.
